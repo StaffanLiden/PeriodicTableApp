@@ -1,17 +1,11 @@
-//
-//  ElementsApp.swift
-//  Elements
-//
-//  Created by Staffan Liden on 2025-03-05.
-//
-
+// ElementsApp.swift
 import SwiftUI
 
 @main
 struct ElementsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView() // Start with the StartView
         }
     }
 }
